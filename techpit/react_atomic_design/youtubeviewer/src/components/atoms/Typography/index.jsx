@@ -70,6 +70,9 @@ const Typography = ({
   </Root>
 );
 
+// 型チェック
+// PropTypes.oneOf(['foo', 'bar']): fooかbarどちらかであること
+// PropTypes.node: renderできるものであること
 Typography.propTypes = {
   className: PropTypes.string,
   size: PropTypes.oneOf(sizes),
